@@ -3,7 +3,7 @@ const actionRouter = require("./data/helpers/actionRouter")
 const projectRouter = require("./data/helpers/projectRouter")
 
 const server = express()
-const port = process.env.PORT || 4000
+const port = 4000
 
 server.use(express.json())
 
