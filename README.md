@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Writing server = express creates a server. Writing server.use(express.json()) is a method inbuilt in express to recognize the incoming Request Object as a JSON Object. This method is called as a middleware
+
 - [ ] Describe Middleware?
+
+Middleware is the general technical term used to describe a system or software that connects two different or otherwise separate or unrelated applications together. It allows the flow of communication or data.
 
 - [ ] Describe a Resource?
 
+ In general, a resource is any hardware or software that is accessible by a computer, network, or another object connected to a computer.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A 200 status.
+
 - [ ] How can we partition our application into sub-applications?
+
+By using server.use()
 
 ## Minimum Viable Product
 
